@@ -1,11 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from './tag.jpg';
 import "./Header.css";
 
 const Header = () => (
-
-<h1> Hi I'm a Header. </h1> 
+        <header className="App-header">
+          <img src={logo} className="logotop" alt="logo" />
+          <h1 className="App-title">THE ORLANDO SISTERS and WORLD WIDE ORDERS</h1>
+        </header>
  	);
+
+
+
 
 
 export default Header;
